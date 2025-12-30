@@ -39,6 +39,8 @@ Add your Gemini API key in extract.php
 
 Open http://localhost/vahi/index.html in your browser
 
+🎥 Demo Video: https://drive.google.com/drive/folders/1PHOQACPWYjoo_92-5CTmobHMpm7eC2Hx
+
 👥 Team Members
 
 Rajvi Patel – @Rajvi-Patel24 (Backend & AI Integration)
