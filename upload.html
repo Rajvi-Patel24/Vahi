@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Upload | Vahi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">📄 Vahi</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="upload.html" class="active">Upload</a>
+    <a href="history.html">History</a>
+    <a href="about.html">About</a>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="upload-card">
+    <h2>Upload Your Vahi</h2>
+    <p>Drag and drop your handwritten notebook image or click to browse</p>
+
+    <input type="file" id="imageInput" accept="image/*" hidden />
+    
+    <div class="drop-box" onclick="document.getElementById('imageInput').click()">
+      Drop your image here
+    </div>
+
+    <button onclick="uploadImage()">Choose File</button>
+
+    <p id="status"></p>
+    <pre id="result"></pre>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
